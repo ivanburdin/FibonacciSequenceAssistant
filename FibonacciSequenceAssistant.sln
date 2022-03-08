@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSequenceAssistant.Presentation", "FibonacciSequenceAssistant.Presentation\FibonacciSequenceAssistant.Presentation.csproj", "{C3EB9E98-5EE3-401C-A6C4-9BD8B179D64B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED4375BC-6AC4-4E0B-8F45-E10634469375}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1AD6B5D6-767B-41FF-8014-A5F9E41C9FC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalServices", "ExternalServices", "{BE6745ED-C5E2-4688-B247-DFB3FFA64F0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSequenceAssistant.Domain", "FibonacciSequenceAssistant.Domain\FibonacciSequenceAssistant.Domain.csproj", "{DBD4DDB8-DA78-43F2-9D15-B2437FCE0763}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSequenceAssistant.DomainServices", "FibonacciSequenceAssistant.DomainServices\FibonacciSequenceAssistant.DomainServices.csproj", "{A0DB53A2-6441-4A3F-A67A-DDC6D0B8BA5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSequenceAssistant.GenericSubdomain", "FibonacciSequenceAssistant.GenericSubdomain\FibonacciSequenceAssistant.GenericSubdomain.csproj", "{763DB227-568D-457D-B08B-B393D6E7F904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSequenceAssistant.ExternalServices", "FibonacciSequenceAssistant.ExternalServices\FibonacciSequenceAssistant.ExternalServices.csproj", "{587C6D30-D1FC-4D9E-92C7-DC95AA069FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSequenceAssistant.ExternalServices.FibonacciSequenceAuthor", "FibonacciSequenceAssistant.ExternalServices.FibonacciSequenceAuthor\FibonacciSequenceAssistant.ExternalServices.FibonacciSequenceAuthor.csproj", "{53D28709-E7A8-414B-8298-CC9BDC92DE13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSequenceAssistant.Domain.UnitTests", "FibonacciSequenceAssistant.Domain.UnitTests\FibonacciSequenceAssistant.Domain.UnitTests.csproj", "{B4B5697C-89CC-45B5-AB06-BD100C3A2FE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3EB9E98-5EE3-401C-A6C4-9BD8B179D64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3EB9E98-5EE3-401C-A6C4-9BD8B179D64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3EB9E98-5EE3-401C-A6C4-9BD8B179D64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3EB9E98-5EE3-401C-A6C4-9BD8B179D64B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD4DDB8-DA78-43F2-9D15-B2437FCE0763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD4DDB8-DA78-43F2-9D15-B2437FCE0763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD4DDB8-DA78-43F2-9D15-B2437FCE0763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD4DDB8-DA78-43F2-9D15-B2437FCE0763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0DB53A2-6441-4A3F-A67A-DDC6D0B8BA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0DB53A2-6441-4A3F-A67A-DDC6D0B8BA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0DB53A2-6441-4A3F-A67A-DDC6D0B8BA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0DB53A2-6441-4A3F-A67A-DDC6D0B8BA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{763DB227-568D-457D-B08B-B393D6E7F904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763DB227-568D-457D-B08B-B393D6E7F904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763DB227-568D-457D-B08B-B393D6E7F904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763DB227-568D-457D-B08B-B393D6E7F904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587C6D30-D1FC-4D9E-92C7-DC95AA069FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587C6D30-D1FC-4D9E-92C7-DC95AA069FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587C6D30-D1FC-4D9E-92C7-DC95AA069FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587C6D30-D1FC-4D9E-92C7-DC95AA069FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D28709-E7A8-414B-8298-CC9BDC92DE13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D28709-E7A8-414B-8298-CC9BDC92DE13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D28709-E7A8-414B-8298-CC9BDC92DE13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D28709-E7A8-414B-8298-CC9BDC92DE13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B5697C-89CC-45B5-AB06-BD100C3A2FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B5697C-89CC-45B5-AB06-BD100C3A2FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B5697C-89CC-45B5-AB06-BD100C3A2FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B5697C-89CC-45B5-AB06-BD100C3A2FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE6745ED-C5E2-4688-B247-DFB3FFA64F0A} = {ED4375BC-6AC4-4E0B-8F45-E10634469375}
+		{C3EB9E98-5EE3-401C-A6C4-9BD8B179D64B} = {ED4375BC-6AC4-4E0B-8F45-E10634469375}
+		{DBD4DDB8-DA78-43F2-9D15-B2437FCE0763} = {ED4375BC-6AC4-4E0B-8F45-E10634469375}
+		{A0DB53A2-6441-4A3F-A67A-DDC6D0B8BA5C} = {ED4375BC-6AC4-4E0B-8F45-E10634469375}
+		{763DB227-568D-457D-B08B-B393D6E7F904} = {ED4375BC-6AC4-4E0B-8F45-E10634469375}
+		{587C6D30-D1FC-4D9E-92C7-DC95AA069FDA} = {BE6745ED-C5E2-4688-B247-DFB3FFA64F0A}
+		{53D28709-E7A8-414B-8298-CC9BDC92DE13} = {BE6745ED-C5E2-4688-B247-DFB3FFA64F0A}
+		{B4B5697C-89CC-45B5-AB06-BD100C3A2FE5} = {1AD6B5D6-767B-41FF-8014-A5F9E41C9FC1}
+	EndGlobalSection
+EndGlobal
