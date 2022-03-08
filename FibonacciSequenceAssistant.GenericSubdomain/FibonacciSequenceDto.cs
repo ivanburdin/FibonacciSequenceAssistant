@@ -10,8 +10,7 @@ namespace FibonacciSequenceAssistant.GenericSubdomain
         {
             Sequence = sequence;
         }
-
-
+        
         public FibonacciSequence ToDomain()
         {
             return new FibonacciSequence(Sequence);

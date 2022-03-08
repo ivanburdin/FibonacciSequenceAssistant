@@ -18,7 +18,12 @@ namespace FibonacciSequenceAssistant.ExternalServices.FibonacciSequenceAuthor
         public void Continue(FibonacciSequenceDto fibonacciSequence, int requestedLength)
         {
             var factory = new ConnectionFactory
-                {HostName = _rabbitOptions.Host, UserName = _rabbitOptions.User, Password = _rabbitOptions.Password};
+            {
+                HostName = _rabbitOptions.Host,
+                UserName = _rabbitOptions.User,
+                Password = _rabbitOptions.Password
+            };
+
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {
